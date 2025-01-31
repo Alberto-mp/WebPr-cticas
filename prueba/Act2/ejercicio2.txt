@@ -1,0 +1,6 @@
+Se mantiene la conexión con la base de datos pruebas_practicas.
+Se añade un formulario HTML en la parte superior para insertar nuevos clientes.
+Al enviar el formulario, PHP recibe los datos mediante $_POST y verifica que los campos obligatorios (name, address, telf, type) no estén vacíos.
+Si los datos son correctos, se ejecuta una consulta INSERT INTO TEST_CLIENTS para añadir el nuevo cliente a la base de datos.
+Si hay un error (por ejemplo, campos vacíos), se muestra un mensaje de advertencia.
+Tras la inserción, se recarga el listado de clientes para reflejar el cambio.

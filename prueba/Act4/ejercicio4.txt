@@ -1,0 +1,5 @@
+Se añadió una validación para que el campo "Teléfono" solo acepte números:
+En HTML, se cambió type="text" por type="number" en el input del teléfono.
+En JavaScript, se validó con if (!/^\d+$/.test(telf)) para evitar caracteres no numéricos.
+En PHP, se agregó preg_match('/^\d+$/', $telf) para verificar antes del INSERT en la base de datos.
+Si el usuario intenta ingresar letras o símbolos en el campo "Teléfono", no se le permite.

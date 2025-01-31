@@ -1,0 +1,43 @@
+Ejercicio 1: Negación del condicional
+
+La expresión dada es:,a || (b && (c || (d && e)))
+Para negar esta expresión, aplicamos la Ley de De Morgan y simplificamos:
+
+Aplicamos la negación a la disyunción:
+!(a || (b && (c || (d && e))))
+
+Según De Morgan:!A || !B = !(A && B)
+
+Por lo que se transforma en:v!a && !(b && (c || (d && e)))
+
+Aplicamos De Morgan a la conjunción dentro del paréntesis: !a && (!b || !(c || (d && e)))
+
+Aplicamos De Morgan nuevamente a la disyunción:!a && (!b || (!c && !(d && e)))
+
+Aplicamos De Morgan a la última conjunción:!a && (!b || (!c && (!d || !e)))
+
+Este es el resultado negado sin utilizar la negación directa de toda la expresión.
+
+Ejercicio 2: Código en PHP
+
+Implementación en PHP:
+<?php
+function draw_pyramid($size) {
+    // Parte ascendente
+    for ($i = 1; $i <= $size; $i++) {
+        echo str_repeat(" ", $size - $i) . str_repeat("#", $i) . "\n";
+    }
+    
+    // Parte descendente
+    for ($i = $size - 1; $i >= 1; $i--) {
+        echo str_repeat(" ", $size - $i) . str_repeat("#", $i) . "\n";
+    }
+}
+
+// Llamamos a la función con un tamaño de 5
+draw_pyramid(5);
+?>
+Explicación del código:
+1er bucle: Genera la parte superior de la pirámide, añadiendo espacios antes de los # para alinearlos correctamente.
+2º bucle: Genera la parte descendente de la pirámide, invirtiendo el patrón anterior.
+Funciones str_repeat: Se usan para generar los espacios y los # de manera eficiente en cada línea.

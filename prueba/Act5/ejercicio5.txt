@@ -1,0 +1,7 @@
+Se modificó index.php para que los nombres de los clientes sean enlaces que llevan a detalle.php, pasando el ID del cliente en la URL.
+Se creó detalle.php, que:
+Obtiene el ID de la URL y valida que sea un número.
+Consulta la base de datos para obtener toda la información del cliente.
+Muestra los datos en pantalla con un formato limpio.
+Si el ID no es válido o el cliente no existe, muestra un mensaje de error en rojo.
+Incluye un enlace de "Volver al listado" para regresar a index.php.

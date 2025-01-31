@@ -1,0 +1,6 @@
+Se actualizó la consulta SQL para incluir el campo TYPE en el listado de clientes.
+Se agregó una condición en PHP:
+Si el TYPE del cliente es 'P' (Premium), la fila se muestra con texto en negrita y azul.
+En la columna de tipo, en lugar de P o N, ahora aparece:
+    ⭐ Premium para P.
+    Normal para N.

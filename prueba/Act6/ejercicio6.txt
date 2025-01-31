@@ -1,0 +1,10 @@
+Se mejoró la gestión de errores en la conexión y consultas SQL:
+
+Se añadieron try-catch para manejar excepciones de MySQL y evitar que la página se detenga si hay un error.
+Se usaron consultas preparadas (bind_param()) para prevenir inyección SQL.
+Si ocurre un error, ahora se muestra un mensaje claro en la pantalla.
+Se implementó una barra de búsqueda en tiempo real con AJAX:
+
+Cuando el usuario escribe en el campo de búsqueda, se muestran los resultados sin recargar la página.
+Se creó el archivo buscar.php, que devuelve los clientes filtrados según el nombre o la dirección.
+Se usó JavaScript y XMLHttpRequest para enviar la búsqueda y actualizar los resultados dinámicamente.

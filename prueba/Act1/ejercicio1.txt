@@ -1,0 +1,5 @@
+Se creó un archivo index.php en la carpeta htdocs de XAMPP.
+Se estableció la conexión con la base de datos pruebas_practicas utilizando MySQLi.
+Se realizó una consulta SQL para obtener los campos NAME, ADDRESS y TELF de la tabla TEST_CLIENTS.
+Los datos se mostraron en una tabla HTML.
+Se probó en el navegador accediendo a http://localhost/index.php.
