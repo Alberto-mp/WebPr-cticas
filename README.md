@@ -28,4 +28,4 @@ Dado que era mi **primera vez utilizando PHP**, he **intentado resolver cada obs
 
 Sé que aún hay muchas formas de mejorar la aplicación, como **optimizar el código, mejorar la seguridad y estructurar mejor los archivos**, pero estoy satisfecho con el resultado logrado en este tiempo. **Voy a seguir aprendiendo PHP diariamente** para fortalecer mis habilidades y mejorar mis proyectos.  
 
-Si tengo la suerte de ser seleccionado, **seguiré trabajando duro para perfeccionar mis conocimientos y aportar valor al equipo**. 🚀😊
+Si tengo la suerte de ser seleccionado, **seguiré trabajando duro para perfeccionar mis conocimientos y aportar valor al equipo**. 
